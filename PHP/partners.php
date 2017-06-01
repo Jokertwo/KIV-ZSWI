@@ -13,7 +13,13 @@
                     <a class='swiper-slide' href="<?=get_field('url');?>" target="_blank">
                         <img 
                             data-src="<?=$image['url'];?>"
-                            <?php if($loop < 4) { ?>src="<?=$image['url'];?>" <? } ?>
+                            <?php if($loop < 4) { ?>src="<?=$image['url'];?>" <? }
+								else{
+									 ?>
+									src ="#"
+									<?
+								}
+								?>
                             alt="<?=get_the_title();?>"
                             >
                     </a>

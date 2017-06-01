@@ -7,8 +7,14 @@ if ( $the_query->have_posts() ) {
         $image = get_field('image');?>
         <a href='<?=get_field('url');?>' target='_blank' <? if($loop > 0){?>style='display: none'<?php } ?>>
             <img
-                <?php if ($loop == 0) { ?>src='<?=$image['url'];?>' <?php } ?>
-                data-src='<?=$image['url'];?>'
+                <?php if ($loop == 0) { ?>src='<?=$image['url'];?>' <?php } 
+						else{
+							?>
+							 src="#"
+					
+						<? }?>
+						
+                    data-src='<?=$image['url'];?>'
                 />
         </a>
         <?php

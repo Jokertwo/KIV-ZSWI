@@ -16,9 +16,16 @@ if ( $the_query->have_posts() ) {
                     <div class="swiper-slide">
                         <a href='<?=get_field('url');?>'>
                             <img
-                                <?php if ($loop == 0) { ?>src="<?=$image['url'];?>"<?php } ?>
-                                data-src="<?=$image['url'];?>"
-                                alt='<? the_title();?>'
+                                <?php if ($loop == 0) { ?>src="<?=$image['url'];?>"<?php }
+								
+								else{ ?>
+									src ="#"
+									<?}?>
+									data-src="<?=$image['url'];?>"
+									alt='<? the_title();?>'
+									
+								
+                                
                                 >
                         </a>
                     </div>

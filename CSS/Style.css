@@ -5836,6 +5836,7 @@ p.wp-caption-text {
 .fbLikeBox {
   width: 100%;
   max-width: 233px;
+  
 }
 .btn {
   border-radius: 0;
@@ -6324,12 +6325,8 @@ p.wp-caption-text {
 .content .article #makeDonation ul li select {
   margin-left: 10px;
 }
-.content .sidebar .social
 
-{
-	text-align: center;
-}
- .ico {
+.content .sidebar .social .ico {
   display: inline-block;
   width: 42px;
   height: 42px;

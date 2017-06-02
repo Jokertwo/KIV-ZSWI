@@ -6198,7 +6198,7 @@ p.wp-caption-text {
   background-color: rgba(0, 0, 0, 0.5);
   zoom: 1;
   background-color: transparent\9;
-  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
   -webkit-transition: 400ms;
   transition: 400ms;
@@ -6206,7 +6206,7 @@ p.wp-caption-text {
 .content .news .new a:hover .type,
 .content .news .new a:hover .name {
   opacity: 0.5;
-  filter: alpha(opacity=0.50);
+  filter: alpha(opacity=50);
 }
 .content .device {
   position: relative;
@@ -6330,7 +6330,7 @@ p.wp-caption-text {
   height: 42px;
   background: url("images/icons.png") no-repeat 0 0;
   opacity: 0.75;
-  filter: alpha(opacity=0.75);
+  filter: alpha(opacity=75);
   -webkit-transition: 400ms;
   transition: 400ms;
 }
@@ -6345,7 +6345,7 @@ p.wp-caption-text {
 }
 .content .sidebar .social .ico:hover {
   opacity: 1;
-  filter: alpha(opacity=1);
+  filter: alpha(opacity=100);
 }
 .content .sidebar .partners {
   text-align: center;

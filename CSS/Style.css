@@ -6324,21 +6324,28 @@ p.wp-caption-text {
 .content .article #makeDonation ul li select {
   margin-left: 10px;
 }
-.content .sidebar .social .ico {
+.content .sidebar .social
+
+{
+	text-align: center;
+}
+ .ico {
   display: inline-block;
   width: 42px;
   height: 42px;
   background: url("images/icons.png") no-repeat 0 0;
   opacity: 0.75;
-  filter: alpha(opacity=75);
+  filter: alpha(opacity=0.75);
   -webkit-transition: 400ms;
   transition: 400ms;
+  
 }
 .content .sidebar .social .ico.rss {
   background-position: -42px 0;
 }
 .content .sidebar .social .ico.facebook {
   background-position: -84px 0;
+  
 }
 .content .sidebar .social .ico.twitter {
   background-position: -126px 0;

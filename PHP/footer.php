@@ -1,5 +1,5 @@
 		<?php include('parts/partners.php'); ?>
-	
+	</div>
 	<footer class='footer'>
 		<div class='row'>
 			<?php dynamic_sidebar('footer'); ?>

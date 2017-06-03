@@ -9,10 +9,10 @@
 		<h3>Broadcast Partners</h3>
 		<p class='partners'>
 			<a href="http://www.wflains.org/" target="_blank">
-				<img class='first' src="<?=get_template_directory_uri();?>/images/WESTERNFRATERNALLIFEWFLAnew.jpg" >
+				<img class='first' src="<?=get_template_directory_uri();?>/images/WESTERNFRATERNALLIFEWFLAnew.jpg" alt="Western Fraternal Life">
 			</a>
 			<a href="http://www.czechtourism.com/" target="_blank">
-				<img src="<?=get_template_directory_uri();?>/images/czechtourism.jpg" alt="">
+				<img src="<?=get_template_directory_uri();?>/images/czechtourism.jpg" alt="Chzech tourism the official travel site">
 			</a>
 		</p>
 		

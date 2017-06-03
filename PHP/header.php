@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -24,7 +24,7 @@
 							'container_class' => ''
 						)); ?>
 					<form method="get" action="/">
-						<input type='text' name='s' placeholder='What are you looking for?' /><input type='submit' value='Search' />
+						<input type='text' name='s' placeholder='What are you looking for?' alt='Type for search.' /><input type='submit' value='Search' alt='Search'/>
 					</form>
 					<div class='clear'></div>
 				</div>

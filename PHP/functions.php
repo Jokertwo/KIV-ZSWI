@@ -29,8 +29,9 @@ function addchapter( $content ) {
         <p><strong>In this Czech-American TV online Broadcast you will see:</strong></p>
         <?php while( have_rows('chapter') ): the_row();
 			$image = get_sub_field('image');
+			
         	?>
-            <img src='<?php echo $image['sizes']['list'];?>' class='alignleft' />
+            <img src='<?php echo $image;?>' class='alignleft' />
             <?php the_sub_field('description');?>
             <div class='clear'></div>
         <?php endwhile; ?>

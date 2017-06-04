@@ -1,4 +1,6 @@
 
+-- @autor: team LAMA
+
 -- prvni dotaz se pokusi najit vsechny popisy obrazku a vlozit je jako
 -- alternativni texty
 INSERT INTO wp_postmeta -- vloz radek do tabulky wp_postmeta

@@ -27,7 +27,7 @@ function addchapter( $content ) {
     if( have_rows('chapter') ){ ?>
         <div class='clear'></div>
         <p><strong>In this Czech-American TV online Broadcast you will see:</strong></p>
-        <?php while( have_rows('chapter') ): the_row();
+        <?php while( have_rows('chapter') ): the_row();		
 			$image = get_sub_field('image');
 			
         	?>

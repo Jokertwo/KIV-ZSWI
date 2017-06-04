@@ -24,7 +24,9 @@
 							'container_class' => ''
 						)); ?>
 					<form method="get" action="/">
-						<input type='text' name='s' placeholder='What are you looking for?' alt='Type for search.' /><input type='submit' value='Search' alt='Search'/>
+						<label for='search' style="display: none; visibility: hidden;">Search:</label>
+						<input id='search' type='text' name='s' placeholder='What are you looking for?' />
+						<input type='submit' value='Search'/>
 					</form>
 					<div class='clear'></div>
 				</div>

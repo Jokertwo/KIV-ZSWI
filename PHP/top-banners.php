@@ -14,9 +14,9 @@ if ( $the_query->have_posts() ) {
 							 src="#"
 					
 						<? }?>
-						
+						alt='<?=$image['alt'];?>'
                     data-src='<?=$image['url'];?>'
-					alt='<?=$image['alt'];?>'
+					
                 />
         </a>
         <?php
